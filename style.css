@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "MADEBonVoyage.woff2";
+    src: url(./assets/MADEBonVoyage.woff2) format("woff2");
+}
+@font-face {
+    font-family: "MADEBonVoyage-Thin.woff2";
+    src: url(./assets/MADEBonVoyage-Thin.woff2) format("woff2");
+}
+@font-face {
+    font-family: "ErotiqueAlternateTrial-Regular.woff2";
+    src: url(./assets/ErotiqueAlternateTrial-Regular.woff2) format("woff2");
+}
+body {
+    margin: 0;
+}
+h1 {
+    font-family: "MADEBonVoyage.woff2";
+    font-size: 10rem;
+    font-weight: normal;
+    color: rgb(139, 108, 108);
+}
+.main-container {
+    background-color: rgb(238, 222, 217);
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+.headline {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+.logo {
+    display: flex;
+    width: 40rem;
+    height: auto;
+    margin-top: 6rem;
+    margin-left: 6rem;
+}
+.title {
+    display: flex;
+    text-align: center;
+    width: 20rem;
+    margin-top: 22rem;
+    margin-left: -5rem;
+    line-height: 10rem;
+}
+.dividerimage img {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.event {
+    display: none;
+}
+.visitinginfo {
+    width: 56rem;
+    color: rgb(104, 84, 84);
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+.header h3 {
+    font-size: 2rem;
+    margin-left: -5rem;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+@media only screen and (max-width:64rem){
+    .main-container {
+        background-color: rgb(224, 213, 231);
+    }
+    h1 {
+        font-size: 7rem;
+        color: rgb(160, 148, 168);
+    }
+    .headline {
+        margin-left: 5rem;
+    }
+    .title {
+        margin-top: 20rem;
+        margin-left: -18rem;
+        line-height: 7rem;
+    }
+    .logo {
+        width: 35rem;
+        height: 35rem;
+    }
+    .visitinginfo {
+        width: 37rem;
+        color:  rgb(115, 107, 122);
+    }
+    .dividerimage img {
+        margin-top: -2rem;
+    }
+}
+@media only screen and (max-width: 24rem){
+    .main-container {
+        background-color: rgb(217, 238, 235);
+    }
+    .logo {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .headline {
+        margin-left: 0;
+    }
+    h1 {
+        font-size: 5rem;
+        color:  rgb(139, 165, 161);
+    }
+    .title {
+        margin-top: 12rem;
+        margin-left: -20rem;
+        line-height: 5rem;
+    }
+    .dividerimage img {
+        margin-top: -6rem;
+    }
+    .visitinginfo {
+        width: 18rem;
+        color:  rgb(110, 131, 128);
+    }
+    .header h3 {
+        font-size: 1.4rem;
+        margin-left: -1rem;
+    }
+    p {
+        font-size: .9rem;
+        line-height: 1.3rem;
+    }
+}
